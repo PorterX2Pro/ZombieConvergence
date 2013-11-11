@@ -1,7 +1,7 @@
 ZombieConvergence
 =================
 
-An open sourced zombie game engine.
+An open sourced zombie game engine. Lisensed under GPL v3.
 
 
 All you need to start working:
