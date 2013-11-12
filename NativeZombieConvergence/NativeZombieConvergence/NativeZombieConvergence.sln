@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeZombieConvergence", "NativeZombieConvergence\NativeZombieConvergence.vcxproj", "{DA10215D-E37A-4A5A-BC47-AB95C6B87C06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA10215D-E37A-4A5A-BC47-AB95C6B87C06}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DA10215D-E37A-4A5A-BC47-AB95C6B87C06}.Debug|Win32.Build.0 = Debug|Win32
+		{DA10215D-E37A-4A5A-BC47-AB95C6B87C06}.Release|Win32.ActiveCfg = Release|Win32
+		{DA10215D-E37A-4A5A-BC47-AB95C6B87C06}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

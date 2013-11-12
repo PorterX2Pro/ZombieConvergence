@@ -110,7 +110,7 @@ namespace ZMProject
             Vector3 moveVector = Vector3.Zero;
             if (Keyboard.GetState().IsKeyDown(Keys.LeftShift))
             {
-                cameraSpeed = 55;
+                cameraSpeed = 95;
             }
             else
             {
@@ -126,6 +126,14 @@ namespace ZMProject
                 moveVector.X = 1;// cameraSpeed* dt;
             if (Keyboard.GetState().IsKeyDown(Keys.D))
                 moveVector.X = -1;//cameraSpeed * dt;
+            if (Keyboard.GetState().IsKeyDown(Keys.Space))
+            {
+                moveVector.Y = 1;
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.LeftControl))
+            {
+                moveVector.Y = -1;
+            }
 
             //Now if our movement vector is not zero
             if (moveVector != Vector3.Zero)
